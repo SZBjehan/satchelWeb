@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" value="{{ csrf_token() }}" />
-    <title>Radionics</title>
+    <title>Satchel</title>
     <link href="{{ mix('css/app.css') }}" type="text/css" rel="stylesheet" />
 
 </head>

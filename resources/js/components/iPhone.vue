@@ -2,7 +2,7 @@
     <div class="Iphone" id="iPhone">
         <div class="ip">
             <div class="title">
-                Apple Products
+                Special Products
             </div>
             <div class="selling-card">
                 <div class="card">
