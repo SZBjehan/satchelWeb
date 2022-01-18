@@ -3,8 +3,7 @@
         <Navbar />
         <Featured />
         <TopSelling />
-        <Promotional />
-        <IPhone />
+        <CountryBased />
         <Dealership />
         <Branding />
         <Footer />
@@ -12,25 +11,25 @@
 </template>
 
 <script>
-import Dealership from "./Dealership.vue";
-import Featured from "./Featured.vue";
-import IPhone from "./iPhone.vue";
 import Navbar from "../layout/Navbar.vue";
+import Featured from "./Featured.vue";
 import TopSelling from "./TopSelling.vue";
-import Footer from "../layout/Footer.vue";
+import CountryBased from './CountryBased.vue';
+import Dealership from "./Dealership.vue";
 import Branding from "./Branding.vue";
 import Promotional from "./Promotional.vue";
+import Footer from "../layout/Footer.vue";
 
 export default {
     components: {
         Featured,
         Navbar,
-        IPhone,
         Dealership,
         TopSelling,
         Footer,
         Branding,
-        Promotional
+        Promotional,
+        CountryBased
     }
 };
 </script>

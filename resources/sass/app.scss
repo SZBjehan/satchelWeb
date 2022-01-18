@@ -346,21 +346,44 @@
 
 
 
-// iPhone
+// Country Based
 
-.Iphone{
+.countryBased{
     
     color: $white;
     background-color: black;
     overflow: hidden;
     padding: 5em 0em;
 }
-
-.ip .card{
-    box-shadow:  0 4px 8px 0 rgba(255, 249, 249, 0.2);
+.sub-title{
+    display: flex;
+}
+.sub-titleC{
+    text-align: center;
+    width: 33%;
+    float: left;
 }
 
 
+.country-card{
+    // box-shadow:  0 4px 8px 0 rgba(255, 249, 249, 0.2);
+    display: grid;
+    padding: 3em;
+}
+.mini-card{
+    display: flex;
+    float: left;
+    padding: 3em;
+    transition: 0.3s;
+    box-shadow:  0 4px 8px 0 rgba(255, 249, 249, 0.2);
+
+}
+.mini-img {
+    text-align: center;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 10px;
+}
 
 // Branding
 
